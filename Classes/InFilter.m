@@ -4,8 +4,8 @@
 
 #import "InFilter.h"
 #import "NSAttributedString+AdditionalCreationMethods.h"
+#import "CocoaOniguruma/OnigRegexp.h"
 #import <Adium/AIContentMessage.h>
-#import <CocoaOniguruma/OnigRegexp.h>
 
 static NSString *PAT_ROOT_STR = @"(?<username>[^\\s]+)\\s+(?<text>.*)\\n(?<permalink>http://www.plurk.com/p/[^\\s]+) - (?<thread_id>#[^\\s]+)";
 static NSString *PAT_COMMENT_STR = @"(?<username>[^\\s]+)\\s+(?<text>.*)\\nto \\\"(?<owner>[^\\s]+)\\s+(?<root_text>.*)\\\" - (?<permalink>http://www.plurk.com/p/[^\\s]+) - (?<thread_id>#[^\\s]+)";

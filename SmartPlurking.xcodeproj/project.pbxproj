@@ -29,7 +29,6 @@
 		B92D2054125E2D3900DBF69D /* ascii.c in Sources */ = {isa = PBXBuildFile; fileRef = B92D2051125E2D3900DBF69D /* ascii.c */; };
 		B92D2055125E2D3900DBF69D /* unicode.c in Sources */ = {isa = PBXBuildFile; fileRef = B92D2052125E2D3900DBF69D /* unicode.c */; };
 		B92D2056125E2D3900DBF69D /* utf16_le.c in Sources */ = {isa = PBXBuildFile; fileRef = B92D2053125E2D3900DBF69D /* utf16_le.c */; };
-		B9989B2C1256E85200B10D89 /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9989B2B1256E85200B10D89 /* Adium.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,7 +72,6 @@
 		B92D2051125E2D3900DBF69D /* ascii.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ascii.c; path = Classes/CocoaOniguruma/oniguruma/enc/ascii.c; sourceTree = "<group>"; };
 		B92D2052125E2D3900DBF69D /* unicode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unicode.c; path = Classes/CocoaOniguruma/oniguruma/enc/unicode.c; sourceTree = "<group>"; };
 		B92D2053125E2D3900DBF69D /* utf16_le.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = utf16_le.c; path = Classes/CocoaOniguruma/oniguruma/enc/utf16_le.c; sourceTree = "<group>"; };
-		B9989B2B1256E85200B10D89 /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Adium.framework; path = "/Users/pun/work/adium/adium-1.3.10/build/Deployment/Adium.framework"; sourceTree = "<absolute>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +81,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
-				B9989B2C1256E85200B10D89 /* Adium.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +146,6 @@
 		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B9989B2B1256E85200B10D89 /* Adium.framework */,
 				089C167FFE841241C02AAC07 /* AppKit.framework */,
 				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
 				089C1672FE841209C02AAC07 /* Foundation.framework */,
